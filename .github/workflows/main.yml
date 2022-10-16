@@ -1,0 +1,15 @@
+Name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+	steps: 
+		- name: Run git-sizer
+      			run: git-sizer --verbose
+      
