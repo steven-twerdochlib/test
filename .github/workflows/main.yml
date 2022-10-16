@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: List files
-        run: ls
+        run: ls && pwd
       - name: Run
         run: ./git-sizer
