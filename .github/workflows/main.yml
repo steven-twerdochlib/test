@@ -6,4 +6,5 @@ jobs:
     runs-on: windows-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: .\git-sizer --verbose
+      - run: ls
+      - run: git-sizer --verbose
