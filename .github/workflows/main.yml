@@ -12,4 +12,6 @@ jobs:
 	steps: 
 		- name: Run git-sizer
       			run: ..\git-sizer --verbose
+      		- name: Run echo
+      			run: echo "Hello World"
       
