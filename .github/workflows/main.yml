@@ -11,5 +11,5 @@ jobs:
     runs-on: windows-latest
 	steps: 
 		- name: Run git-sizer
-      			run: git-sizer --verbose
+      			run: ..\git-sizer --verbose
       
