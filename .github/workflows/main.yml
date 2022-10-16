@@ -16,5 +16,6 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - name: Run git-sizer
-        run: /home/runner/work/test/test/git-sizer.exe --verbose
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+        run: chmod u+x /home/runner/work/test/test/git-sizer.exe --verbose
+      - name: job status
+        - run: echo "🍏 This job's status is ${{ job.status }}."
