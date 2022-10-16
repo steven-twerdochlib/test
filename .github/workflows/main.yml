@@ -15,4 +15,6 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+      - name: Run git-sizer
+        run: /home/runner/work/test/test/git-sizer --verbose
       - run: echo "🍏 This job's status is ${{ job.status }}."
