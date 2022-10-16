@@ -7,4 +7,4 @@ jobs:
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: dir
-      - run: git-sizer --verbose
+      - run: C:\Users\Steven\Documents\test_git_repository\test\git-sizer --verbose
