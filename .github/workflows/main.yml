@@ -18,4 +18,4 @@ jobs:
       - name: Run git-sizer
         run: chmod u+x /home/runner/work/test/test/git-sizer.exe --verbose
       - name: job status
-        - run: echo "🍏 This job's status is ${{ job.status }}."
+        run: echo "🍏 This job's status is ${{ job.status }}."
