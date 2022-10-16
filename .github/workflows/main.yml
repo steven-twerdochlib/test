@@ -6,4 +6,4 @@ jobs:
     runs-on: windows-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: ..\git-sixer --verbose
+      - run: .\git-sixer --verbose
